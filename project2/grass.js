@@ -1,3 +1,5 @@
+let LivingCreator = module.exports('./LivingCreator')
+
 class Grass extends LivingCreator {
     constructor(x, y) {
         this.x = x

@@ -1,3 +1,5 @@
+
+
 class Predator extends LivingCreator {
     constructor(x, y) {
         this.x = x;
