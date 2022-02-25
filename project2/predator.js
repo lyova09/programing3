@@ -1,6 +1,6 @@
+ let LivingCreator = require('./LivingCreator')
 
-
-class Predator extends LivingCreator {
+ module.exports =  class Predator extends LivingCreator {
     constructor(x, y) {
         this.x = x;
         this.y = y;

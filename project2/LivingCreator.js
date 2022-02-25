@@ -1,4 +1,4 @@
-class LivingCreator {
+module.exports = class LivingCreator {
     chooseCell(character) {
         var found = [];
         for (var i in this.directions) {
